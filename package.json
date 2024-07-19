@@ -1,19 +1,17 @@
 {
-  "name": "agoratokenserver",
+  "name": "nodejs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Nader Sayed",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/node": "^20",
     "agora-access-token": "^2.0.4",
-    "express": "^4.17.1"
-  },
-  "engines": {
-    "node": "20.x"
+    "express": "^4.19.2"
   }
 }
